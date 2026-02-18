@@ -1,0 +1,26 @@
+# Massimo Creative - Görev Yönetim Sistemi
+
+Bu proje, Massimo Creative Full Stack Developer teknik case gereksinimlerini karşılamak üzere geliştirilmiştir. 
+
+## 🛠 Kullanılan Teknolojiler
+- **Ruby on Rails** (v8.x) -
+- **Devise** (Authentication) 
+- [cite_start]**Tailwind CSS** (Responsive UI) 
+- [cite_start]**SQLite** (Veritabanı) 
+
+## Yerel Kurulum (Local Setup)
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin: 
+
+1. Bağımlılıkları yükleyin:
+   `bundle install`
+2. Veritabanını hazırlayın:
+   `rails db:prepare`
+3. Sunucuyu başlatın:
+   `rails s`
+4. Tarayıcıdan `http://localhost:3000` adresine gidin.
+
+## Özellikler
+- **Kimlik Doğrulama:** Kullanıcılar ad, e-posta ve şifre ile kayıt olabilir, giriş ve çıkış yapabilirler. 
+- **Erişim Kontrolü:** Giriş yapmayan kullanıcılar görev sayfalarına erişemez. 
+- **Görev Yönetimi:** Tam CRUD (Ekleme, Listeleme, Güncelleme, Silme) desteği. 
+- **Durum Takibi:** Bekliyor, Devam Ediyor ve Tamamlandı durumları. 
