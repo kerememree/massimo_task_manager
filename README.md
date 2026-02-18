@@ -16,7 +16,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 2. Veritabanını hazırlayın:
    `rails db:prepare`
 3. Sunucuyu başlatın:
-   `rails s`
+   `rails server`
 4. Tarayıcıdan `http://localhost:3000` adresine gidin.
 
 ## Özellikler
@@ -24,3 +24,9 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 - **Erişim Kontrolü:** Giriş yapmayan kullanıcılar görev sayfalarına erişemez. 
 - **Görev Yönetimi:** Tam CRUD (Ekleme, Listeleme, Güncelleme, Silme) desteği. 
 - **Durum Takibi:** Bekliyor, Devam Ediyor ve Tamamlandı durumları. 
+
+
+<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/c43c6632-6d0c-4a11-b91b-310ce4a396ec" />
+<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/c43c6632-6d0c-4a11-b91b-310ce4a396ec" />
+
+
